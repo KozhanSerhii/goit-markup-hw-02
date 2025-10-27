@@ -7,7 +7,7 @@
 body{
     font-family: Roboto, sans-serif;
     color:#434455;
-    background-color:FFFFFF;
+    background-color:#FFFFFF;
 }
 
 a{
@@ -38,7 +38,7 @@ ul{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #404BBF;
+    color: #4D5AE5;
 }
 
 .page-logo:active{
@@ -50,18 +50,25 @@ ul{
     color: #2E2F42;
 }
 
-.nav-list{
-
+.nav-list>li{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .nav-list-item{
 
 }
 
+.nav-link-studio:focus,
+.nav-link-studio:active,
+.nav-link-studio:hover{
+    color: #404bbf;
+}
+
 .nav-link{
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    
 }
 
 .nav-link:hover{
@@ -129,6 +136,10 @@ ul{
 
 }
 
+.our-advantage-title{
+    color: #2e2f42;
+}
+
 .advantage-list{
 
 }
@@ -153,7 +164,7 @@ ul{
 
 /* #region our-team */
 .our-team{
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
 .team-title{
@@ -161,11 +172,12 @@ ul{
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    text-transform: capitalize
+    text-transform: capitalize;
+    color:#2e2f42;
 }
 
 .team-list{
-
+    background-color: #FFFFFF;
 }
 
 .team-list-item{
@@ -182,6 +194,7 @@ font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    color:#2e2f42;
 }
 
 .teammate-position{
@@ -198,12 +211,12 @@ font-weight: 500;
 }
 
 .portfolio-title{
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    text-transform: capitalize
+    text-transform: capitalize;
+    color:#2e2f42;
 }
 
 .portfolio-list{
@@ -223,6 +236,7 @@ font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .item-description{
