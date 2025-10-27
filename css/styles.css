@@ -6,7 +6,8 @@
 
 body{
     font-family: Roboto, sans-serif;
-    color:#2E2F42;
+    color:#434455;
+    background-color:FFFFFF;
 }
 
 a{
@@ -34,14 +35,19 @@ ul{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #404BBF;
+}
+
+.page-logo:active{
+    color: #404bbf;
 }
 
 .part-logo{
     font-family: "Raleway", sans-serif;
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
 .nav-list{
@@ -67,7 +73,7 @@ ul{
 }
 
 .header-address{
-    
+    font-style: normal
 }
 
 .header-address-list{
@@ -96,17 +102,14 @@ ul{
 }
 
 .main-title{
-font-size: 56px;
-
-    /* line-height: 60px; */
-    line-height: 1.07143;
+    font-size: 56px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
 }
 
 .order-button{
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4D5AE5;
     font-weight: 500;
     line-height: 1.5;
@@ -115,7 +118,8 @@ font-size: 56px;
     cursor:pointer;
 }
 
-.order-button:hover{
+.order-button:hover,
+.order-button:focus{
     background-color: #404BBF;
 }
 /* #endregion hero*/
@@ -149,14 +153,15 @@ font-size: 56px;
 
 /* #region our-team */
 .our-team{
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
 }
 
 .team-title{
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize
 }
 
 .team-list{
@@ -195,9 +200,10 @@ font-weight: 500;
 .portfolio-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize
 }
 
 .portfolio-list{
@@ -235,11 +241,16 @@ font-weight: 500;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: #4d5ae5;
 }
+
+.footer-part-logo{
+    color: #f4f4fd;
+}
+
 
 .text-footer{
     line-height: 1.5;
